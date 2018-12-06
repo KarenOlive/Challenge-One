@@ -1,0 +1,94 @@
+
+h2{
+    text-align: start;
+    font-style: normal;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+h3{
+    text-align: right;
+    font-style: normal;
+    font-family: Calibri;
+    font-size: 20px;
+}
+hr{
+    border-color: lightskyblue;
+}
+body{
+    background-color:lightgrey;
+}
+
+
+p{  
+    text-align: center;
+    text-decoration-style: dashed;
+    font-style: oblique;
+    font-family: Cochin;
+    font-size: 60px;
+    background-color: darksalmon;
+    padding: 20px;
+    
+}
+
+
+
+
+input[type=search]{
+ width: 60%;
+ align-content: center;
+ border: none;
+ border-radius: 25px; 
+ border-color: beige;
+ background-color : lightblue;
+ padding: 20px;
+ margin-left: 200px;
+ margin-right: 30px;
+ margin-top: 20px;
+ margin-bottom: 50px;
+ background-image : url('searchicon.png') ;
+ background-position : 60px 10px; 
+ 
+}
+input[type=search]:hover{
+    border: none;
+    border-radius: 25px;
+    background-color:lightskyblue;
+}
+input[type=search]:focus {
+    border: none;
+    border-radius: 25px;
+    background-color: lightskyblue;
+    
+}
+input[type=submit]{
+    
+    background-color: beige;
+    color:black;
+    padding: 12px;
+    cursor: pointer;    
+}
+
+input[type=submit]:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+input[type=button]{
+    background-color: linen;
+    border: none;
+    color: black;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+input[type=button]:hover{
+color: aquamarine;
+cursor: pointer;
+}
