@@ -1,0 +1,38 @@
+body{
+    background-image: url(images2.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    position: relative;
+    background: radial-gradient(plum, grey);
+    text-align: center;
+}
+#logo{
+    margin: 0 auto;
+    width: 200px;
+}
+nav ul li{
+    display: inline-block;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+
+
+}
+
+nav ul li:hover{
+    background-color: rgba(252, 74, 133, 0.589);
+
+}
+
+@media  screen (max-width: 700px){
+    body{
+        background-attachment: scroll;
+    }
+}
